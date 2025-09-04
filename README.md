@@ -25,4 +25,4 @@ Notes:
 - If you want me to also add a PowerShell script that auto-commits these files to your GitHub repo, tell me and I'll include it.
 
 <!-- Dark Signature -->
-*"The silence carves its mark in code."*
+*"Every commit leaves a ghost behind."*
