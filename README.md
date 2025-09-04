@@ -23,3 +23,6 @@ Notes:
 - The page will render normally in browsers because index.html is included.
 - The esoteric files are for visual/aesthetic flex and to make your repo look like a ritual grimoire.
 - If you want me to also add a PowerShell script that auto-commits these files to your GitHub repo, tell me and I'll include it.
+
+<!-- Dark Signature -->
+*"The silence carves its mark in code."*
