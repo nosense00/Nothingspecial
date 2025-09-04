@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Whispers Beyond the Veil</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Roboto+Mono&display=swap');
+    :root{--bg:#050505;--muted:#9b9b9b;--crimson:#b30000}
+    html,body{height:100%;margin:0}
+    body{
+      background:linear-gradient(180deg,#000 0%, #070707 60%);
+      color:var(--muted);
+      font-family:'Roboto Mono',monospace;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+      display:flex;flex-direction:column;min-height:100vh;
+    }
+    header{height:70vh;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:2rem}
+    h1{font-family:'UnifrakturCook',cursive;color:var(--crimson);font-size:3.4rem;letter-spacing:0.04em;text-shadow:0 0 18px rgba(179,0,0,0.25)}
+    p.lead{max-width:780px;margin-top:1rem;color:#a8a8a8}
+    .quote{font-style:italic;margin:2rem auto;font-size:1.25rem;opacity:0.95;max-width:900px}
+    .flicker{animation:flicker 4s infinite}
+    footer{margin-top:auto;padding:18px 8px;border-top:1px solid #111;color:#666;text-align:center}
+    @keyframes flicker{
+      0%,19%,21%,23%,25%,54%,56%,100%{opacity:1}
+      20%,24%,55%{opacity:0.3}
+    }
+    /* show the obscure files note on hover */
+    .sig{margin-top:14px;color:#6f6f6f;font-size:0.9rem}
+    .sig a{color:#8e8e8e;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="flicker">Whispers Beyond the Veil</h1>
+    <p class="lead">Step into the abyss — this page is born of esoteric code, stitched from Brainfuck, Malbolge, and whispers of Whitespace. Look, but don't read too closely.</p>
+  </header>
+
+  <main>
+    <div class="quote">“The night knows what the daylight forgets...”</div>
+    <div class="quote">“Not all who wander are lost, some are simply hiding.”</div>
+    <div class="quote">“Beneath silence, the loudest truths echo.”</div>
+  </main>
+
+  <footer>
+    © Nosense — Shadows 2025 · <span class="sig">package: <a href="#" onclick="alert('This repo contains: generate.bf (Brainfuck), malbolge.rune (Malbolge gibberish), ritual.ws (Whitespace invisible), README.md & deploy scripts.'); return false">cursed_bundle v1</a></span>
+  </footer>
+</body>
+</html>
